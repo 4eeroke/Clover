@@ -1,0 +1,42 @@
+.wrapperItem {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 360px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #828282;
+}
+
+.itemText {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.itemTitle {
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+
+.itemTags {
+    color: #828282;
+    font-size: 14px;
+}
+
+.itemSocials {
+    display: flex;
+    gap: 15px;
+}
+
+.itemSocial {
+    width: 24px;
+}
+
+.itemPrice {
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: right;
+    padding-bottom: 20px;
+}

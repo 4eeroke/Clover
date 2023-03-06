@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
 import style from "./Header.module.css";
-import logo from "../assets/Logo.svg";
-import arrowIcon from "../assets/icons/Arrow.svg";
-import closeIcon from "../assets/icons/Close.svg";
-import cartIcon from "../assets/icons/Cart.svg";
-import searchIcon from "../assets/icons/search.svg";
+import logo from "./../../assets/Logo.svg";
+import arrowIcon from './../../assets/icons/Arrow.svg';
+import cartIcon from "./../../assets/icons/Cart.svg";
+
+
+import closeIcon from "./../../assets/icons/Close.svg";
+import searchIcon from "./../../assets/icons/search.svg";
 
 const Header = () => {
     return (

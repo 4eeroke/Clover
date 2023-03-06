@@ -1,0 +1,34 @@
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.subscribeTitle {
+    font-size: 46px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+.inputs {
+    display: flex;   
+}
+
+.inputEmail {
+    padding: 15px 30px;
+    background-color: #1C1C1C;
+    outline: none;
+    border: 1px solid #fff;
+    font-size: 17px;
+    border-right: none;
+}
+
+.inputSubmit {
+    font-size: 17px;
+    color: #fff;
+    padding: 15px 30px;
+    background: #D60B52;
+    border: none;
+}

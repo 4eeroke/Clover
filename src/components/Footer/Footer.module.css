@@ -1,0 +1,41 @@
+.footer {
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+
+.logoFooter {
+    fill: #000;
+}
+
+.footerInner {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.footerContent {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoDate {
+    color: #828282;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.logoText {
+    color: #828282;
+    font-weight: 500;
+    width: 741px;
+    font-size: 17px;
+}

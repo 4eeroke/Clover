@@ -20,10 +20,15 @@ a {
   text-decoration: none;
 }
 
-#root {
-  
+.container {
   width: 1280px;
   margin: auto;
-  
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 150px;
 }
 

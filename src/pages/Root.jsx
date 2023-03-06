@@ -1,19 +1,23 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/Header";
-import '../index.css';
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
+import "../index.css";
 
 const Root = () => {
-    return (
-        <div className="layout">
+  return (
+    <div>
+        <div className="container">
             <Header />
 
             <main>
-                <Outlet />
+            <Outlet />
             </main>
-
-            
         </div>
-    )
-}
+      
+
+      <Footer />
+    </div>
+  );
+};
 
 export default Root;
