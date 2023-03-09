@@ -8,13 +8,10 @@ const Root = () => {
     <div>
         <div className="container">
             <Header />
-
             <main>
             <Outlet />
             </main>
         </div>
-      
-
       <Footer />
     </div>
   );

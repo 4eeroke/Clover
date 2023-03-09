@@ -8,7 +8,7 @@ import windows from "./../../assets/Social/windows.svg";
 
 const Item = () => {
     return (
-        <NavLink className={style.wrapperItem}>
+        <NavLink to="/item" className={style.wrapperItem}>
             <img src={sliderIMG} alt="" />
             <div className={style.itemText}></div>
             <p className={style.itemTitle}>HOGWARTS LEGACY</p>

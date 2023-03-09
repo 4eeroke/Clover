@@ -17,6 +17,7 @@ h1, h2, h3, h4 {
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
 }
 
@@ -24,11 +25,3 @@ a {
   width: 1280px;
   margin: auto;
 }
-
-.items {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 150px;
-}
-
