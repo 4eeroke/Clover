@@ -53,6 +53,7 @@
 }
 
 .description {
+    line-height: 150%;
     font-size: 16px;
     color: #828282;
 }
@@ -66,4 +67,26 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.btnBuy {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px 0px;
+    color: #fff;
+    background-color: #D60B52;
+    border: 1px solid #D60B52;
+    text-align: center;
+}
+
+.btnCart {
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    padding: 12px 0px;
+    color: #D60B52;
+    background-color: #1c1c1c;
+    border: 1px solid #D60B52;
+    text-align: center;
 }

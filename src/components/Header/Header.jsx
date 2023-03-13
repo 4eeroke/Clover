@@ -5,8 +5,7 @@ import arrowIcon from './../../assets/icons/Arrow.svg';
 import cartIcon from "./../../assets/icons/Cart.svg";
 
 
-import closeIcon from "./../../assets/icons/Close.svg";
-import searchIcon from "./../../assets/icons/search.svg";
+
 
 const Header = () => {
     return (
@@ -36,7 +35,10 @@ const Header = () => {
                     <NavLink className={style.NavLinkPurple} to={"#"}>Бесплатно</NavLink>
                     <NavLink className={style.NavLink} to={"#"}>Пополнить Steam</NavLink>
                 </nav>
-                <input className={style.HeaderSearch} type="text" placeholder="Поиск"/>
+                <form action="">
+                    <input className={style.HeaderSearch} type="text" placeholder="Поиск"/>
+                </form>
+                
                 <img src={cartIcon} alt="" />
             </div>
             

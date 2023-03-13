@@ -31,12 +31,12 @@ const ItemPage = () => {
                         Netus augue imperdiet sit sed. 
                         Blandit malesuada proin amet consectetur.
                         </div>
-                        <div className={style.purple}>Подробнее</div>
+                        <a href="/" className={style.purple}>Подробнее</a>
                     </div>
                     
                     <div className={style.btns}>
-                        <a href="#" className={btnBuy}>Купить</a>
-                        <a href="#" className={btnCart}>Добавить в корзину</a>
+                        <a href="#" className={style.btnBuy}>Купить</a>
+                        <a href="#" className={style.btnCart}>Добавить в корзину</a>
                     </div>
 
                 </div>
